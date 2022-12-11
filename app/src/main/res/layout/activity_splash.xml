@@ -4,7 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/fondorosa2">
+    android:background="@drawable/fondorosa2"
+    tools:context=".splash.SplashActivity">
 
     <ImageView
         android:id="@+id/imageView"
@@ -16,5 +17,5 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.2"
-        app:srcCompat="@drawable/LogoSinLetras" />
+        app:srcCompat="@drawable/logo" />
 </androidx.constraintlayout.widget.ConstraintLayout>
